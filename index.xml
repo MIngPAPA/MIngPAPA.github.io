@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ni-Ming</title>
+    <link>https://mingpapa.github.io/</link>
+    <description>Recent content on Ni-Ming</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Jun 2018 22:10:01 +0800</lastBuildDate>
+    
+	<atom:link href="https://mingpapa.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://mingpapa.github.io/post/first/</link>
+      <pubDate>Sun, 03 Jun 2018 22:10:01 +0800</pubDate>
+      
+      <guid>https://mingpapa.github.io/post/first/</guid>
+      <description> First PAGE </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://mingpapa.github.io/about/about/</link>
+      <pubDate>Sun, 03 Jun 2018 21:45:22 +0800</pubDate>
+      
+      <guid>https://mingpapa.github.io/about/about/</guid>
+      <description>About Me 本科学水蒸气吹的大风车。
+研究生学电风扇 &amp;ndash;&amp;gt;
+风扇工人</description>
+    </item>
+    
+  </channel>
+</rss>
