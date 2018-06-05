@@ -4,17 +4,24 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta content='text/html; charset=utf-8' http-equiv='content-type' />
 
-  <title>Abouts - Ni-Ming</title>
-  <meta content='Abouts - Ni-Ming' property='title' />
-  <meta content='Abouts - Ni-Ming' property='og:title' />
+  <title>About - Ni-Ming</title>
+  <meta content='About - Ni-Ming' property='title' />
+  <meta content='About - Ni-Ming' property='og:title' />
 
 
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
+<meta property="og:description" content=" About Me 94年。男。
+中国科学院工程热物理研究所在读硕士。
+本科学用水蒸气吹的大风车；研究生阶段研究电风扇
+&ndash;&gt;是一名光荣的风扇工人
+兴趣&amp;技能  Python  OS Numpy Pandas  Linux  PBS &amp; LSF Administration MPI Bash  CFD  CFX &amp; batch Pointwise Tecplot   " />
+<meta property="og:type" content="article" />
 <meta property="og:url" content="https://mingpapa.github.io/about/" />
 
 
-<meta property="og:updated_time" content="2018-06-03T21:45:22&#43;08:00"/>
+<meta property="article:published_time" content="2018-06-03T21:45:22&#43;08:00"/>
+
+<meta property="article:modified_time" content="2018-06-03T21:45:22&#43;08:00"/>
+
 
 
 
@@ -47,26 +54,86 @@ type="image/x-icon"/>
 <link href='/feed.xml' rel="alternate" type="application/atom+xml" title="Ni-Ming" />
 </head>
 <body class="global-font">
-  <nav class=" justify-between border-box pa3 pl3-l pr2-l mt1 mt0-ns" id="navbar">
+  <nav class=" flex  justify-between border-box pa3 pl3-l pr2-l mt1 mt0-ns" id="navbar">
   <div class="flex">
     <a class="f4 fw6 ttu no-underline dim bg-main-color pv1 ph2 br2" id="site-title" href='/' title="Home">Ni-Ming</a>
+  </div>
+  
+  <div class=" flex-grow  pv1">
+    
+      <a class="link dim dark-gray f6 dib mr2 mr3-l ttu tracked" href='/about/' title="About">About</a>
+    
   </div>
   
 </nav>
   
 <main class="center mv4 content-width ph3">
-  <h1 class="f2 fw6 heading-font">Abouts</h1>
-  
-  <ul class="list-pages">
+  <div class="f3 fw6 heading-color heading-font post-title">About</div>
+  <p class="silver f6 mt1 mb4 post-meta">
+    <time>03 Jun 2018</time> 
     
-      <li class="lh-copy"><a href="/about/about/" class="link f5">About</a> - <time>03 Jun 2018</time></li>
     
-  </ul>
+    
+  </p>
+  <div class="lh-copy post-content">
+
+<h1 id="about-me">About Me</h1>
+
+<p>94年。男。</p>
+
+<p>中国科学院工程热物理研究所在读硕士。</p>
+
+<p>本科学用水蒸气吹的大风车；研究生阶段研究电风扇</p>
+
+<p>&ndash;&gt;是一名光荣的风扇工人</p>
+
+<h2 id="兴趣-技能">兴趣&amp;技能</h2>
+
+<ol>
+<li>Python
+
+<ul>
+<li>OS</li>
+<li>Numpy</li>
+<li>Pandas</li>
+</ul></li>
+<li>Linux
+
+<ul>
+<li>PBS &amp; LSF</li>
+<li>Administration</li>
+<li>MPI</li>
+<li>Bash</li>
+</ul></li>
+<li>CFD
+
+<ul>
+<li>CFX &amp; batch</li>
+<li>Pointwise</li>
+<li>Tecplot</li>
+</ul></li>
+</ol>
+</div>
 </main>
-<div class="pagination tc db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+ 
 
+
+
+
+
+
+<div class="tl fixed list-pages lh-copy" id="contents-list"></div>
+
+
+
+<div class="pagination tc tr-l db fixed-l bottom-2-l right-2-l mb3 mb0-l">
+  
 <a id="scroll-to-top" class="f6 o-0 link br2 ph2 pv1 mb1 bg-main-color pointer" onclick="topFunction()" style="color: #fff; visibility: hidden; display: none; transition: opacity .5s, visibility .5s;" title="back to top">back to top</a>
-
+<br>
+  <p class="mb0 mt2">
+  
+  
+  </p>
 </div>
 
   <footer class="content-width mt0 mt5-l mb4 f6 center ph3 gray tc tl-l">
@@ -77,6 +144,10 @@ type="image/x-icon"/>
   
 
 
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.1.1/tocbot.css">
+<style>.is-active-link::before { background-color: var(--secondary-color); }</style>
 
 
 
@@ -121,6 +192,17 @@ function topFunction() {
 
 
 
+
+if (document.getElementById("contents-list") !== null && document.getElementsByClassName("post-content").length !== 0) { 
+  tocbot.init({
+    
+    tocSelector: '#contents-list',
+    
+    contentSelector: '.post-content',
+    
+    headingSelector: 'h1, h2, h3',
+  });
+}
 
 
 </script>
